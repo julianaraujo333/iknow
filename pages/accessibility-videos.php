@@ -50,70 +50,57 @@
   <!-- Font Awesome -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900;&display=swap" rel="stylesheet">
 
   <!-- CSS projeto -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.min.css?<?=date("dmyhis")?>" media="screen, print" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.min.css?<?=date("dmyhis")?>" media="screen, print" />
 
 
 </head>
 
-<body class="page-home">
+<body class="post-structure">
   <a class="skip-link" href='#main'>Skip to content</a>
-  <header>
-    <nav class="container">
-      <h1><img src="./assets/img/lett.svg" alt="What she knows"></h1>
+  <div class="fullscreen">
+    <header class="container">
+      <a href="../index.php"><img src="../assets/img/duck.svg" alt="What she knows"></a>
 
-      <a class="cta-daily" href="#">
-        <span class="top-key"></span>
-        <span class="text">Daily code</span>
-        <span class="bottom-key-1"></span>
-        <span class="bottom-key-2"></span>
-      </a>
-    </nav>
-  </header>
+      <nav role="navigation">
+        <h2><a href="./accessibility.php"> Acessibilidade</a> <span class="subpage">| Videos</span></h2>
+        <ul>
+          <li class="current"><a href="#">Videos</a></li>
+          <li><a href="./accessibility-podcast.php">Podcast</a></li>
+          <li><a href="#">Livros</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="container">
-    <section class="wrapper">
-      <h2>Explore</h2>
-      <div class="search">
-        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-          <g>
-            <path
-              d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-            </path>
-          </g>
-        </svg>
-        <input placeholder="Search" type="search" class="input">
-      </div>
-
-      <div class="repository">
-        <h3>Repositorios: </h3>
-
-        <div class="repository__tags">
-          <div class="repository__tag" tabindex="0">
-            <span><img src="./assets/img/icons/accessibility.svg" alt=""></span>
-            <a href="./pages/accessibility.php" tabindex="-1">Acessibilidade</a>
+    <main id="main" role="main">
+      <ul class="container">
+        <li>
+          <a href="https://www.youtube.com/watch?v=4URTZHk6tz0&t=269s" rel=”nofollow” target="_blank">Talita Pagani: Acessibilidade na
+            prática para você nunca mais esquecer</a>
+          <div class="info">
+            <span>Talita Pagani</span>
+            <span>&#x2022;</span>
+            <span>26 de novembro de 2022</span>
           </div>
-
-          <div class="repository__tag" tabindex="0">
-            <span><img src="./assets/img/icons/seo.svg"  alt=""></span>
-            <a href="./pages/seo.php" tabindex="-1">SEO</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=5FJJuEVt5sA&t=1636s" rel=”nofollow” target="_blank">Reinaldo Ferraz: Lang e Alt:
+            Atributos da Pesada</a>
+          <div class="info">
+            <span>Reinaldo Ferraz</span>
+            <span>&#x2022;</span>
+            <span>26 de novembro de 2022</span>
           </div>
-
-          <div class="repository__tag" tabindex="0">
-            <span><img src="./assets/img/icons/tricks.svg"  alt=""></span>
-            <a href="./pages/accessibility.php" tabindex="-1">tips and tricks</a>
-          </div>
-
-          <div class="repository__tag" tabindex="0">
-            <span><img src="./assets/img/icons/animation.svg"  alt=""></span>
-            <a href="#" tabindex="-1">animation</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+        </li>
+        <li>
+          <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+          <span>25 de abril de 2022</span>
+        </li>
+      </ul>
+    </main>
+  </div>
 </body>
 
 </html>

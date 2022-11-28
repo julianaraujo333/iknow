@@ -19,3 +19,14 @@ $break-orientation-landscape: landscape;
   padding-right: 32px;
   margin: 0 auto;
 }
+
+pre,
+code{
+  background: rgba($color: $p-color-6, $alpha: 0.6);
+  color: $p-color-1;
+  direction: ltr !important;
+  text-align: left !important;
+  word-break: break-word;
+  padding: 2px 5px;
+  border-radius: 5px;
+}

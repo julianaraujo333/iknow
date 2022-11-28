@@ -65,11 +65,11 @@
       <a href="../index.php"><img src="../assets/img/duck.svg" alt="What she knows"></a>
 
       <nav role="navigation">
-        <h2>Acessibilidade</h2>
+        <h2><a href="./seo.php"> SEO</a> <span class="subpage">| Podcast</span></h2>
         <ul>
-          <li><a href="./accessibility-videos.php">Videos</a></li>
-          <li><a href="./accessibility-podcast.php">Podcast</a></li>
-          <li><a href="#">Livros</a></li>
+          <li class="current"><a href="#">Videos</a></li>
+          <li><a href="./seo-podcast.php">Podcast</a></li>
+          <li><a href="./seo-certification.php">Certificações</a></li>
         </ul>
       </nav>
     </header>
@@ -77,21 +77,10 @@
     <main id="main" role="main">
       <ul class="container">
         <li>
-          <a href="https://css-tricks.com/how-to-create-a-skip-to-content-link/" rel=”nofollow” target="_blank">Skip to Content</a>
+          <a href="https://open.spotify.com/episode/72RetBQoDRNFcNR3l2bxG5?si=ed0962ebfc084833" rel=”nofollow” target="_blank">Guilda
+            front-end | SEO</a>
           <div class="info">
-            <span>CSS Tricks</span>
-            <span>&#x2022;</span>
-            <span>26 de novembro de 2022</span>
-          </div>
-        </li>
-        <li>
-          <a href="#">Tabindex</a>
-          <span>25 de abril de 2022</span>
-        </li>
-        <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/landmark_role" rel=”nofollow” target="_blank">ARIA: landmark role</a>
-          <div class="info">
-            <span>Mozilla</span>
+            <span>Devnaestrada</span>
             <span>&#x2022;</span>
             <span>26 de novembro de 2022</span>
           </div>
