@@ -50,8 +50,7 @@
   <!-- Font Awesome -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Poppins:wght@400;900&display=swap" rel="stylesheet"> 
   <!-- CSS projeto -->
   <link rel="stylesheet" type="text/css" href="./assets/css/style.min.css?<?=date("dmyhis")?>" media="screen, print" />
 
@@ -108,7 +107,17 @@
 
           <div class="repository__tag" tabindex="0">
             <span><img src="./assets/img/icons/animation.svg"  alt=""></span>
-            <a href="#" tabindex="-1">animation</a>
+            <a href="./pages/animation.php" tabindex="-1">animation</a>
+          </div>
+
+          <div class="repository__tag" tabindex="0">
+            <span><img src="./assets/img/icons/copy.svg"  alt=""></span>
+            <a href="./pages/template.php" tabindex="-1">templates</a>
+          </div>
+
+          <div class="repository__tag" tabindex="0">
+            <span><img src="./assets/img/icons/design.svg"  alt=""></span>
+            <a href="./pages/design.php" tabindex="-1">design</a>
           </div>
         </div>
       </div>
