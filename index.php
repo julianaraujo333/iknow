@@ -102,7 +102,7 @@
 
           <div class="repository__tag" tabindex="0">
             <span><img src="./assets/img/icons/tricks.svg"  alt=""></span>
-            <a href="./pages/accessibility.php" tabindex="-1">tips and tricks</a>
+            <a href="./pages/tipsandtricks.php" tabindex="-1">tips and tricks</a>
           </div>
 
           <div class="repository__tag" tabindex="0">
