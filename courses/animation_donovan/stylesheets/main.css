@@ -203,7 +203,7 @@ footer li:first-child:before {
 .section-title {
     text-align: center;
 }
-.button {
+.button-header {
     background: #269300;
     border-radius: .8rem;
     color: #fff;
@@ -213,3 +213,15 @@ footer li:first-child:before {
     text-align: center;
     width: 20rem;
 }
+
+.button {
+    background: #269300;
+    border-radius: .25em;
+    color: #fff;
+    display: inline-block;
+    padding: .25em .5em;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+
