@@ -18,7 +18,7 @@ const pkg = require('./package.json');
 
 // Set the banner content
 const banner = ['/*!\n',
-    ' * GSK - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+    ' *  <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
     ' * Copyright ' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
     ' */\n',
     '\n'
@@ -27,7 +27,7 @@ const banner = ['/*!\n',
 // BrowserSync
 function browserSync(done) {
     browsersync.init({
-        proxy: "http://localhost:8080/repo-gsk-conectados/campanhas/paxil"
+        proxy: "http://localhost/sites/iknow"
     });
     done();
 }

@@ -31,6 +31,7 @@
 
     <a href="./cards.php">Cards</a>
     <a href="./buttons.php">buttons</a>
+    <a href="./scroll-animations.php">scroll animations</a>
 
     <script>
       // Prepare the body tag by adding a "js-paused" class

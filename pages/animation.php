@@ -76,29 +76,15 @@
     </header>
 
     <main id="main" role="main">
-      <!-- <ul class="container">
+      <ul class="container">
         <li>
-          <a href="https://principles.design/" target="_blank"
-            rel=”nofollow”>Design Principles</a>
+          <a href="https://cssanimation.rocks/" target="_blank"
+            rel=”nofollow”>CSS ANIMATION</a>
           <div class="info">
-            <span>03 de dezembro de 2022</span>
+            <span>11 de fevereiro de 2023</span>
           </div>
         </li>
-        <li>
-          <a href="https://colourcontrast.cc/6be9ff/111111" target="_blank"
-            rel=”nofollow”>Colour Contrast Checker</a>
-          <div class="info">
-            <span>03 de dezembro de 2022</span>
-          </div>
-        </li>
-        <li>
-          <a href="https://animatedbackgrounds.me/#mm" target="_blank"
-            rel=”nofollow”>Animate background</a>
-          <div class="info">
-            <span>03 de dezembro de 2022</span>
-          </div>
-        </li>
-      </ul> -->
+      </ul>
     </main>
   </div>
 </body>

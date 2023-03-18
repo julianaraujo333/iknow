@@ -63,7 +63,7 @@
     <nav class="container">
       <h1><img src="./assets/img/lett.svg" alt="What she knows"></h1>
 
-      <a class="cta-daily" href="#">
+      <a class="cta-daily" href="./pages/daily-code.php">
         <span class="top-key"></span>
         <span class="text">Daily code</span>
         <span class="bottom-key-1"></span>
@@ -118,6 +118,11 @@
           <div class="repository__tag" tabindex="0">
             <span><img src="./assets/img/icons/design.svg"  alt=""></span>
             <a href="./pages/design.php" tabindex="-1">design</a>
+          </div>
+
+          <div class="repository__tag" tabindex="0">
+            <span><img src="./assets/img/icons/sass.svg"  alt=""></span>
+            <a href="./pages/sass.php" tabindex="-1">SASS</a>
           </div>
         </div>
       </div>
