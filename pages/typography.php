@@ -21,19 +21,19 @@
   <meta name="url" content="https://github.com/julianaraujo333" />
   <meta name="identifier-URL" content="#" />
 
-  <meta property="og:title" content=" - " />
+  <meta property="og:title" content="" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="#" />
   <meta property="og:locale" content="pt-br">
-  <meta property="og:site_name" content=" - " />
+  <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
 
   <meta property="og:image" content="./assets/img/imagem-de-compartilhamento.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <meta name="twitter:site" content=" - " />
-  <meta name="twitter:title" content=" - " />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:title" content="" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:description" content="" />
   <meta name="twitter:image" content="./assets/img/imagem-de-compartilhamento.png" />
@@ -65,11 +65,11 @@
       <a href="../index.php"><img src="../assets/img/duck.svg" alt="What she knows"></a>
 
       <nav role="navigation">
-        <h2><a href="./accessibility.php"> Acessibilidade</a> <span class="subpage">| Videos</span></h2>
+        <h2><a href="./typography.php">Typography</a></h2>
         <ul>
-          <li class="current"><a href="#">Videos</a></li>
-          <li><a href="./accessibility-podcast.php">Podcast</a></li>
-          <li><a href="#">Livros</a></li>
+          <!-- <li class="current"><a href="../courses/animation_donovan/index.php">Página em desenvolvimento</a></li> -->
+          <!-- <li><a href="./accessibility-podcast.php">Podcast</a></li>
+          <li><a href="#">Livros</a></li> -->
         </ul>
       </nav>
     </header>
@@ -77,27 +77,18 @@
     <main id="main" role="main">
       <ul class="container">
         <li>
-          <a href="https://www.youtube.com/watch?v=4URTZHk6tz0&t=269s" rel=”nofollow” target="_blank">Talita Pagani: Acessibilidade na
-            prática para você nunca mais esquecer</a>
-          <div class="info">
-            <span>Talita Pagani</span>
-            <span>&#x2022;</span>
-            <span>26 de novembro de 2022</span>
-          </div>
+          <a href="https://www.typewolf.com/cheatsheet" rel=”nofollow” target="_blank">Typewolf</a>
         </li>
         <li>
-          <a href="https://www.youtube.com/watch?v=5FJJuEVt5sA&t=1636s" rel=”nofollow” target="_blank">Reinaldo Ferraz: Lang e Alt:
-            Atributos da Pesada</a>
-          <div class="info">
-            <span>Reinaldo Ferraz</span>
-            <span>&#x2022;</span>
-            <span>26 de novembro de 2022</span>
-          </div>
+          <a href="https://icomoon.io/#icons" rel=”nofollow” target="_blank">Icomoon</a>
         </li>
         <li>
-          <a href="https://www.youtube.com/watch?v=l_NBdzqYm44"  rel=”nofollow” target="_blank"> Frontinsampa 2015 - Vanessa Me Tonini: WAI-ARIA: Acessibilidade em tempo real </a>
-          <span>01 de abril de 2023</span>
+          <a href="#" rel=”nofollow” target="_blank">Livro - Elementos do estilo tipografico</a>
         </li>
+        <li>
+          <a href="#" rel=”nofollow” target="_blank">Livro - Pensar com tipos</a>
+        </li>
+       
       </ul>
     </main>
   </div>

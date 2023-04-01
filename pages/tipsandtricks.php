@@ -21,21 +21,21 @@
   <meta name="url" content="https://github.com/julianaraujo333" />
   <meta name="identifier-URL" content="#" />
 
-  <meta property="og:title" content="GSK - Paxil" />
+  <meta property="og:title" content=" - " />
   <meta property="og:type" content="website">
   <meta property="og:url" content="#" />
   <meta property="og:locale" content="pt-br">
-  <meta property="og:site_name" content="GSK - Paxil" />
-  <meta property="og:description" content="Paxil" />
+  <meta property="og:site_name" content=" - " />
+  <meta property="og:description" content="" />
 
   <meta property="og:image" content="./assets/img/imagem-de-compartilhamento.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <meta name="twitter:site" content="GSK - Paxil" />
-  <meta name="twitter:title" content="GSK - Paxil" />
+  <meta name="twitter:site" content=" - " />
+  <meta name="twitter:title" content=" - " />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="Paxil" />
+  <meta name="twitter:description" content="" />
   <meta name="twitter:image" content="./assets/img/imagem-de-compartilhamento.png" />
 
   <!-- Cannocical -->
@@ -78,6 +78,24 @@
       <ul class="container">
         <li>
           <a href="https://tinypng.com/" rel=”nofollow” target="_blank">Smart WebP, PNG and JPEG compression</a>
+        </li>
+        <li>
+          <a href="https://dribbble.com/courses/ui-design" rel=”nofollow” target="_blank">Dribble - benchmark mobile and desktop</a>
+        </li>
+        <li>
+          <a href="http://species-in-pieces.com/#" rel=”nofollow” target="_blank">species-in-pieces</a>
+        </li>
+        <li>
+          <a href="https://contrast-ratio.com/" rel=”nofollow” target="_blank">Contraste de cor</a>
+        </li>
+        <li>
+          <a href="https://practicaltypography.com/small-caps.html" rel=”nofollow” target="_blank">Practical Typography</a>
+        </li>
+        <li>
+          <a href="https://olafurarnalds.com/" rel=”nofollow” target="_blank">CV Ideias</a>
+        </li>
+        <li>
+          <a href="https://v-fonts.com/fonts/bandeins-sans-and-strange-variable" rel=”nofollow” target="_blank">CV fontes</a>
         </li>
         <!-- <li>
           <a href="https://www.youtube.com/watch?v=5FJJuEVt5sA&t=1636s" rel=”nofollow” target="_blank">Reinaldo Ferraz: Lang e Alt:

@@ -21,21 +21,21 @@
   <meta name="url" content="https://github.com/julianaraujo333" />
   <meta name="identifier-URL" content="#" />
 
-  <meta property="og:title" content="GSK - Paxil" />
+  <meta property="og:title" content=" - " />
   <meta property="og:type" content="website">
   <meta property="og:url" content="#" />
   <meta property="og:locale" content="pt-br">
-  <meta property="og:site_name" content="GSK - Paxil" />
-  <meta property="og:description" content="Paxil" />
+  <meta property="og:site_name" content=" - " />
+  <meta property="og:description" content="" />
 
   <meta property="og:image" content="./assets/img/imagem-de-compartilhamento.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <meta name="twitter:site" content="GSK - Paxil" />
-  <meta name="twitter:title" content="GSK - Paxil" />
+  <meta name="twitter:site" content=" - " />
+  <meta name="twitter:title" content=" - " />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="Paxil" />
+  <meta name="twitter:description" content="" />
   <meta name="twitter:image" content="./assets/img/imagem-de-compartilhamento.png" />
 
   <!-- Cannocical -->
@@ -95,6 +95,29 @@
             <span>&#x2022;</span>
             <span>26 de novembro de 2022</span>
           </div>
+        </li>
+        <li class="inside">
+          <p>Em Input text é melhor fazer o uso de readonly o ao invés de disabled que ainda permite a leitura de
+            leitores de tela e não permite a modificação.
+          </p>
+          <p>
+            <code>
+              &lt;input type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro"&gt;
+            </code>
+          </p>
+        </li>
+        <li class="inside">
+          <p>
+            Uma alternativa de alts para SVG é o atributo title
+          </p>
+          <p>
+            <code>
+              &lt;a href="#" class="cabecalho-logo" title="Logotipo da Apeperia"&gt;
+              <br> &ltsvg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+              &lttitle&gt;Logotipo da Apeperia &lt; /title&gt;
+              &lt;input type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro"&gt;
+            </code>
+          </p>
         </li>
       </ul>
     </main>
