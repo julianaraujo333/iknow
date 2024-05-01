@@ -119,6 +119,19 @@
             </code>
           </p>
         </li>
+
+        <li class="inside">
+          <p>
+            Adicionando legendas em videos
+          </p>
+          <p>
+            <code>
+              &lt;video src="img/formacao-java.mp4" class="secaoInstitucional-video"controls&gt;
+                 <br> &lt;track src="img/legenda-portugues-brasil.vtt"&gt; <br>
+              &lt;/video&gt;
+            </code>
+          </p>
+        </li>
       </ul>
     </main>
   </div>
