@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>What she knows</title>
+  <title>Juliana Araujo</title>
 
   <!-- <base href="/" /> -->
 
