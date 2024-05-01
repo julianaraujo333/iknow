@@ -21,23 +21,6 @@
   <meta name="url" content="https://github.com/julianaraujo333" />
   <meta name="identifier-URL" content="#" />
 
-  <meta property="og:title" content=" - " />
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="#" />
-  <meta property="og:locale" content="pt-br">
-  <meta property="og:site_name" content=" - " />
-  <meta property="og:description" content="" />
-
-  <meta property="og:image" content="./assets/img/imagem-de-compartilhamento.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-
-  <meta name="twitter:site" content=" - " />
-  <meta name="twitter:title" content=" - " />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="./assets/img/imagem-de-compartilhamento.png" />
-
   <!-- Cannocical -->
   <link rel="canonical" href="#">
 
@@ -55,7 +38,6 @@
   <!-- CSS projeto -->
   <link rel="stylesheet" href="/dist/style.min.css">
 
-
 </head>
 
 <body class="post-structure">
@@ -65,40 +47,74 @@
       <a href="../index.html"><img src="/app/img/duck.svg" alt="Duck"></a>
 
       <nav role="navigation">
-        <h2><a href="./accessibility.php"> Acessibilidade</a> <span class="subpage">| Level Up Your CSS Animation Skills</span></h2>
+        <h2>Acessibilidade</h2>
         <ul>
-          <li class="current"><a href="../courses/animation_donovan/index.php">Página em desenvolvimento</a></li>
-          <!-- <li><a href="./accessibility-podcast.php">Podcast</a></li>
-          <li><a href="#">Livros</a></li> -->
+          <li><a href="./accessibility-videos.html">Videos</a></li>
+          <li><a href="./accessibility-podcast.html">Podcast</a></li>
+          <li><a href="#">Livros</a></li>
         </ul>
       </nav>
     </header>
 
     <main id="main" role="main">
-      <!-- <ul class="container">
+      <ul class="container">
         <li>
-          <a href="https://www.youtube.com/watch?v=4URTZHk6tz0&t=269s" rel=”nofollow” target="_blank">Talita Pagani: Acessibilidade na
-            prática para você nunca mais esquecer</a>
+          <a href="https://css-tricks.com/how-to-create-a-skip-to-content-link/" rel=”nofollow” target="_blank">Skip to Content</a>
           <div class="info">
-            <span>Talita Pagani</span>
+            <span>CSS Tricks</span>
             <span>&#x2022;</span>
             <span>26 de novembro de 2022</span>
           </div>
         </li>
         <li>
-          <a href="https://www.youtube.com/watch?v=5FJJuEVt5sA&t=1636s" rel=”nofollow” target="_blank">Reinaldo Ferraz: Lang e Alt:
-            Atributos da Pesada</a>
-          <div class="info">
-            <span>Reinaldo Ferraz</span>
-            <span>&#x2022;</span>
-            <span>26 de novembro de 2022</span>
-          </div>
-        </li>
-        <li>
-          <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+          <a href="#">Tabindex</a>
           <span>25 de abril de 2022</span>
         </li>
-      </ul> -->
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/landmark_role" rel=”nofollow” target="_blank">ARIA: landmark role</a>
+          <div class="info">
+            <span>Mozilla</span>
+            <span>&#x2022;</span>
+            <span>26 de novembro de 2022</span>
+          </div>
+        </li>
+        <li class="inside">
+          <p>Em Input text é melhor fazer o uso de readonly o ao invés de disabled que ainda permite a leitura de
+            leitores de tela e não permite a modificação.
+          </p>
+          <p>
+            <code>
+              &lt;input type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro"&gt;
+            </code>
+          </p>
+        </li>
+        <li class="inside">
+          <p>
+            Uma alternativa de alts para SVG é o atributo title
+          </p>
+          <p>
+            <code>
+              &lt;a href="#" class="cabecalho-logo" title="Logotipo da Apeperia"&gt;
+              <br> &ltsvg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+              &lttitle&gt;Logotipo da Apeperia &lt; /title&gt;
+              &lt;input type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro"&gt;
+            </code>
+          </p>
+        </li>
+
+        <li class="inside">
+          <p>
+            Adicionando legendas em videos
+          </p>
+          <p>
+            <code>
+              &lt;video src="img/formacao-java.mp4" class="secaoInstitucional-video"controls&gt;
+                 <br> &lt;track src="img/legenda-portugues-brasil.vtt"&gt; <br>
+              &lt;/video&gt;
+            </code>
+          </p>
+        </li>
+      </ul>
     </main>
   </div>
 </body>

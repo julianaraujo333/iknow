@@ -1,0 +1,23 @@
+.skip-link {
+  background: var(p-color-3);
+  color: var(p-color-1);
+  font-weight: 700;
+  left: 50%;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-250%);
+
+  &:focus{
+    border: none;
+  }
+}
+
+.skip-link:focus {
+  transform: translateY(250%);
+  border: none;
+}
+
+.skip-link {
+  /* Same as  before */
+  transition: transform 0.3s;
+}
