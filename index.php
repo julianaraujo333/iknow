@@ -59,7 +59,7 @@
 
 <body class="page-home">
   <a class="skip-link" href='#main'>Skip to content</a>
-  <header>
+  <!-- <header>
     <nav class="container">
       <h1><img src="./assets/img/lett.svg" alt="What she knows"></h1>
 
@@ -70,7 +70,7 @@
         <span class="bottom-key-2"></span>
       </a>
     </nav>
-  </header>
+  </header> -->
 
   <main class="container">
     <section class="wrapper">
